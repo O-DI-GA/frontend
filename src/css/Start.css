@@ -1,0 +1,19 @@
+.start {
+    background-color: #F0F2F9;
+}
+
+h2.startText {
+    margin: 0px;
+    padding-top: 20px;
+}
+
+p.startText {
+    font-size: 18px;
+}
+
+.ButtonBox {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 40px
+}

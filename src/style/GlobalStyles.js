@@ -7,7 +7,7 @@
  * 해서 사용
  */
 
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 `;

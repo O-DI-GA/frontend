@@ -3,6 +3,20 @@ import "../css/Start.css";
 import Button from "@mui/material/Button";
 import start1 from "../asset/ODIGA_LOGO.png"; // 사진은 임시로 로고
 
+// 중복되는 버튼 스타일 객체
+const commonButtonStyle = {
+  backgroundColor: "#6C8EF4",
+  fontSize: "18px",
+  color: "white",
+  marginTop: "20px",
+  width: "130px",
+  height: "40px",
+  borderRadius: "30px",
+  ":hover": {
+    backgroundColor: "#5a76d4",
+  },
+};
+
 function SignUp() {
   return (
     <div className="start">
@@ -10,40 +24,10 @@ function SignUp() {
         친구들과 일정을 공유하고 최적의 여행지를 찾아보세요.
       </h2>
       <div className="ButtonBox">
-        <Button
-          type="submit"
-          variant="contained"
-          sx={{
-            backgroundColor: "#6C8EF4",
-            fontSize: "18px",
-            color: "white",
-            marginTop: "20px",
-            width: "150px",
-            height: "40px",
-            borderRadius: "30px",
-            ":hover": {
-              backgroundColor: "#5a76d4",
-            },
-          }}
-        >
+        <Button type="submit" variant="contained" sx={commonButtonStyle}>
           로그인
         </Button>
-        <Button
-          type="submit"
-          variant="contained"
-          sx={{
-            backgroundColor: "#6C8EF4",
-            fontSize: "18px",
-            color: "white",
-            marginTop: "20px",
-            width: "150px",
-            height: "40px",
-            borderRadius: "30px",
-            ":hover": {
-              backgroundColor: "#5a76d4",
-            },
-          }}
-        >
+        <Button type="submit" variant="contained" sx={commonButtonStyle}>
           회원가입
         </Button>
       </div>
@@ -64,40 +48,10 @@ function SignUp() {
       <img src={start1} alt="path" className="startImg" />
       <h2 className="startText">지금 시작하기</h2>
       <div className="ButtonBox">
-        <Button
-          type="submit"
-          variant="contained"
-          sx={{
-            backgroundColor: "#6C8EF4",
-            fontSize: "18px",
-            color: "white",
-            marginTop: "20px",
-            width: "150px",
-            height: "40px",
-            borderRadius: "30px",
-            ":hover": {
-              backgroundColor: "#5a76d4",
-            },
-          }}
-        >
+        <Button type="submit" variant="contained" sx={commonButtonStyle}>
           로그인
         </Button>
-        <Button
-          type="submit"
-          variant="contained"
-          sx={{
-            backgroundColor: "#6C8EF4",
-            fontSize: "18px",
-            color: "white",
-            marginTop: "20px",
-            width: "150px",
-            height: "40px",
-            borderRadius: "30px",
-            ":hover": {
-              backgroundColor: "#5a76d4",
-            },
-          }}
-        >
+        <Button type="submit" variant="contained" sx={commonButtonStyle}>
           회원가입
         </Button>
       </div>

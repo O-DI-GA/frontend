@@ -1,2 +1,0 @@
-# frontend
-Odiga frontend repository

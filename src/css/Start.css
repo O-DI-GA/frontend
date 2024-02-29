@@ -4,7 +4,7 @@
 
 h2.startText {
     margin: 0px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 p.startText {
@@ -15,5 +15,17 @@ p.startText {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding-bottom: 40px
+    padding: 20px
+}
+
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.startImg {
+    width: 400px;
 }

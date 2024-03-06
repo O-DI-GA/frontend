@@ -30,3 +30,15 @@
     font-weight: 600;
 
 }
+
+.header .iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #6C8EF4;
+}
+
+.header .icon {
+    height: 35px;
+}

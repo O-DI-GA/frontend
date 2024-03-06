@@ -6,9 +6,12 @@ import Main from "./pages/Main";
 import SignUp from "./pages/SignUp";
 import Start from "./pages/Start";
 
+import Header from "./component/Header";
+
 function App() {
   return (
     <div className="App">
+      <Header />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/signup" element={<SignUp />} />

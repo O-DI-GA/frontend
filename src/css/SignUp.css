@@ -27,7 +27,7 @@
     text-align: left;
     padding: 100px;
     padding-bottom: 0px;
-    margin-bottom: 200px;
+    margin-bottom: 130px;
     border-radius: 20px;
 }
 
@@ -52,7 +52,6 @@
     width: 100%;
     height: 20px;
     padding: 10px 20px;
-    /* margin-bottom: 50px; */
 }
 
 .signUpInputBox:focus {

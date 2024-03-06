@@ -18,6 +18,7 @@
     color: #000000;
     padding: 50px 0px 50px;
     align-self: stretch;
+    margin: 0;
 }
 
 .SignUp-Container {
@@ -34,7 +35,7 @@
     margin-bottom: 50px;
     display: flex;
     align-items: center;
-    justify-content: "center";
+    justify-content: center;
     gap: 10px;
 }
 

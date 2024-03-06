@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../css/Start.css";
 import Button from "@mui/material/Button";
 import start1 from "../asset/start1.png"; // 사진 나중에 실제 화면 사진으로 바꾸기!!
@@ -20,17 +21,29 @@ const commonButtonStyle = {
   },
 };
 
-function SignUp() {
+function Start() {
+  const navigate = useNavigate();
+
   return (
     <div className="start">
       <h2 className="startText">
         친구들과 일정을 공유하고 최적의 여행지를 찾아보세요.
       </h2>
       <div className="ButtonBox">
-        <Button type="submit" variant="contained" sx={commonButtonStyle}>
+        <Button
+          type="submit"
+          variant="contained"
+          sx={commonButtonStyle}
+          onClick={() => navigate("/login")}
+        >
           로그인
         </Button>
-        <Button type="submit" variant="contained" sx={commonButtonStyle}>
+        <Button
+          type="submit"
+          variant="contained"
+          sx={commonButtonStyle}
+          onClick={() => navigate("/signup")}
+        >
           회원가입
         </Button>
       </div>
@@ -53,10 +66,20 @@ function SignUp() {
       </div>
       <h2 className="startText">지금 시작하기</h2>
       <div className="ButtonBox">
-        <Button type="submit" variant="contained" sx={commonButtonStyle}>
+        <Button
+          type="submit"
+          variant="contained"
+          sx={commonButtonStyle}
+          onClick={() => navigate("/login")}
+        >
           로그인
         </Button>
-        <Button type="submit" variant="contained" sx={commonButtonStyle}>
+        <Button
+          type="submit"
+          variant="contained"
+          sx={commonButtonStyle}
+          onClick={() => navigate("/signup")}
+        >
           회원가입
         </Button>
       </div>
@@ -64,4 +87,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default Start;

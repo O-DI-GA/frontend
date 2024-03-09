@@ -1,0 +1,136 @@
+.createRoom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+    text-align: center;
+    background-color: #F0F2F9;
+}
+
+.createRoomForm {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 80%;
+    padding: 30px;
+    margin: 90px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.createRoomTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #B9B9C3;
+    margin-bottom: 50px;
+}
+
+.cancelImg {
+    height: 40px;
+}
+
+.formBox {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.inputLabel {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    width: 100px;
+    padding-top: 5px;
+}
+
+.tripPeriodInputBox {
+    border-radius: 10px;
+    border: none;
+    background-color: #F0F2F9;
+    width: 40px;
+    height: 20px;
+    padding: 10px 20px;
+}
+
+.tripPeriodInputBox:focus {
+    outline: none;
+}
+
+.checkboxContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.checkboxRow {
+    margin-bottom: 10px;
+}
+
+.buttonContainer {
+    justify-content: center;
+}
+
+.checkboxStyle.checkboxStyle {
+    color: #B1BCE1;
+}
+
+.checkboxStyle.checkboxStyle.Mui-checked {
+    color: #B1BCE1;
+}
+
+.inviteInputContainer {
+    display: flex;
+    align-items: center;
+    background-color: #F0F2F9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+}
+
+.inviteInput {
+    border: none;
+    background-color: transparent;
+    flex-grow: 1;
+    height: 20px;
+}
+
+.inviteInput:focus {
+    outline: none;
+}
+
+.searchButton {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.searchIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.inviteLabel {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.inviteContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkInviteContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.linkCopy {
+    color: #6C8EF4;
+}

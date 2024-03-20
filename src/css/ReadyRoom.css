@@ -51,7 +51,7 @@
     width: 70px;
 }
 
-.buttonContainer {
+.attendedPeople .buttonContainer {
     position: absolute;
     bottom: 80px;
 }

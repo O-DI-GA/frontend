@@ -6,6 +6,7 @@ import Main from "./pages/Main";
 import SignUp from "./pages/SignUp";
 import Start from "./pages/Start";
 import CreateRoom from "./pages/CreateRoom";
+import ReadyRoom from "./pages/ReadyRoom";
 
 import Header from "./component/Header";
 import Footer from "./component/Footer";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/start" element={<Start />} />
         <Route path="/createroom" element={<CreateRoom />} />
+        <Route path="/readyroom" element={<ReadyRoom />} />
       </Routes>
       <Footer />
     </div>

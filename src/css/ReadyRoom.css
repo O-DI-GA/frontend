@@ -6,6 +6,7 @@
     gap: 55px;
     flex-wrap: wrap;
     padding-top: 40px;
+    position: relative;
 }
 
 .shareCalendarTitle,
@@ -51,8 +52,8 @@
 }
 
 .buttonContainer {
-    position: relative;
-    bottom: 00px;
+    position: absolute;
+    bottom: 80px;
 }
 
 .calendarConponent {

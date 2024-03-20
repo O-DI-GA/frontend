@@ -6,6 +6,8 @@ import calImg from "../asset/임시 캘린더 이미지.PNG"; // 나중에 캘�
 import Button from "@mui/material/Button";
 
 function ReadyRoom() {
+  const [isHost, setIsHost] = useState(false);
+
   return (
     <div className="readyRoom">
       <div className="shareCalendar">
@@ -46,14 +48,14 @@ function ReadyRoom() {
         <div className="buttonContainer">
           <Button
             sx={{
-              backgroundColor: "#6C8EF4",
+              backgroundColor: isHost ? "#6C8EF4" : "#DADADB",
               color: "#FFFFFF",
               width: "400px",
               height: "70px",
               fontSize: "20px",
             }}
           >
-            여행 시작하기
+            {isHost ? "여행 시작하기" : "방장을 기다려요"}
           </Button>
           <Button>
             <img src={chatImg} alt="chatImg" className="chatImg" />
